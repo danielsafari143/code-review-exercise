@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id = "survey-form">
+      <label for = "name" id = "name-label">Name</label>
+      <input id = "name" type = "text" placeholder="Enter your name" required>
+      <label for="email" id = "email-label">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required>
+      <label for="age" id = "number-label"> Select your age </label>
+      <input type="number" id="number" placeholder="Chose a number" min="1" max="45">
+      <select id ="dropdown">
+        <option value="text1">first name</option>
+        <option value="text2">last name</option>
+      </select>
+      
+       <div>
+        <input name="first" type="radio" value="firstValue">
+        <input name="first" type="radio" value="secondValue">
+        <input name="first" type="radio" value="ThirdValue">
+       </div>
+       
+  
+       <div>
+        
+        <input name="first" type="checkbox" value="check One ">
+        <input name="second" type="checkbox" value="check Two ">
+        <input name="Third" type="checkbox" value="check Three ">
+       </div>
+       
+
+       <textarea ></textarea>
+        <input id = "submit" type = "submit">
+      
+    </form>
+    <script  src="js/index.js"></script>
+  </body>
+</html>
